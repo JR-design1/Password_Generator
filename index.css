@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #1F2937;
+    color: white;
+}
+
+p, h1, h2, button{
+    margin: inherit;
+}
+
+h1{
+    font-family: "Karla", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+button{
+    font: inherit;
+    font-size: 16px;
+    background-color: #10B981;
+    color: inherit;
+    border: none;
+    padding: 9px 16px;
+}
+
+h2{
+    color: #D5D4D8;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.border-radius-six-px{
+    border-radius: 6px;
+}
+
+.green-font-color{
+    color: #55F991;
+}
+
+.passwords{
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#password-generator-title{
+    margin: 0 0 10px;
+}
+
+#password-generator-subtitle{
+    margin: 10px 0 51px;
+}
+
+#password-generator-btn{
+    display: block;
+    margin: 51px 0 35px;
+}
+
+#password-generator-container{
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#password-generator-heading-section, #passwords-section{
+    width: 446px;
+}
+
+#passwords-section{
+    border-top: 1px solid #2F3E53;
+    padding: 35px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
